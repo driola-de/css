@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Perseritje</title>
+</head>
+<body>
+<p>Une quhem <del>Fation Krasniqi</del></p>
+<p>Vi nga <mark>Prizreni</mark></p>
+<p style="text-align: center">Shkolla <mark>Digjitale</mark><del>Prizren</del></p>
+<center>
+<p>Une quhem <del>Fation Krasniqi</del></p>
+<p>Vi nga <mark>Prizreni</mark></p>
+</center>
+<center>
+<a href="https://www.google.co.uk/">Google</a><br>
+<a href="https://www.facebook.com/">Facebook</a><br>
+<a href="https://www.amazon.com/">Amazon</a><br>
+<a href="https://www.google.co.uk/"><img height="50%" width="50%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png"></a><br>
+</center>
+</body>
+</html>
