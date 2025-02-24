@@ -1,0 +1,41 @@
+body{
+    padding: 0px;
+    margin:0px;
+    background-color: black;
+}
+p{
+    background-color: aliceblue;
+}
+#p1{
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding: 30px;
+    padding-left: 50px;
+      
+}
+#p2{
+    width: 100px;
+    margin-left: 400px;
+    margin-top: 60px;
+    padding-left: 50px;
+    margin: 50px;
+      
+}
+#p3{
+    width: 100px;
+    margin-left: 200px;
+    margin-top: 30px;
+    padding-left: 40px;
+    padding: 50px;
+      
+}
+#p4{
+    width: 200px;
+    border: 5px solid gray;
+    margin: 50px;
+    padding: 30px;
+    outline: 7px solid snow;
+    outline-offset: 5px;
+}
+

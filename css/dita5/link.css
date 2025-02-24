@@ -1,0 +1,28 @@
+a:link {
+    color: palevioletred;
+
+}
+
+a:visited {
+    color: bisque;
+}
+
+a:hover {
+    color: blue;
+    font-size: 20px;
+    background-color: aqua;
+}
+a:active {
+    color: blueviolet;
+}
+#a1 {
+    color: red;
+    text-decoration-line: none;
+
+
+}
+#a1:hover {
+    background-color: rgb(255, 255, 255);
+    text-decoration: underline;
+    font-size: 16px;
+} 

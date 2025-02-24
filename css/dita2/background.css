@@ -13,3 +13,9 @@
     height: 400px;
     background-image: url(nyc.jpg);
  }
+ div2{
+   border: 1px solid black;
+   width: 700px;
+   height: 400px;
+   background-image:aqua url(nyc.jpg) no-repeat 100% scroll;
+ }

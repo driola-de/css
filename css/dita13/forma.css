@@ -1,0 +1,39 @@
+body {
+    font-family: Arial,  sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+
+}
+
+#divk {
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    margin: auto;
+}
+h2 {
+    color: #444;
+}
+h3 {
+    color: rgb(27, 221, 163);
+    margin-top: 20px;
+}
+ .private-info {
+    font-size: 10px;
+    color: black;
+    margin-left: 12px;
+ }
+ .bandb {
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+ }
+ label {
+
+
+    font-weight: bold;
+ }
+
