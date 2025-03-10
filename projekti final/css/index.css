@@ -1,0 +1,26 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(129, 163, 217);
+  }
+  ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+  }
+  li {
+    float: left;
+  }
+  li a {
+    color:rgb(9, 58, 127);
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: rgb(61, 59, 59);
+    text-decoration: underline;
+    font-size: 20px;
+  }
