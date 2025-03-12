@@ -1,14 +1,32 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
 body {
-    margin: 0px;
-    padding: 0px;
-    background-color: rgb(129, 163, 217);
+   
+    background-color: rgb(61, 100, 163);
   }
+
+#divk{
+  display: flex;
+  background-color: rgb(255, 255, 255);
+}
+#divImg{
+  max-width: 100px;
+}
+#divImg>a>img{
+  width: 100px;
+}
+#navv{
+  align-content: center;
+}
   ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
     overflow: hidden;
-    background-color: rgb(255, 255, 255);
+    
   }
   li {
     float: left;
