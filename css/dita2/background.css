@@ -1,10 +1,10 @@
  body{
-    background-color: rgb(255, 218, 224);
-    background-image: url(mnht.jpg);
-    background-repeat: no-repeat;
-    /* backgroung-position: 200px 200px;*/
-    background-size: cover;
-    background-attachment: fixed;
+   background-color: rgb(255, 218, 224);
+   background-image: url(mnht.jpg);
+   background-repeat: no-repeat;
+   /* backgroung-position: 200px 200px;*/
+   background-size: cover;
+   background-attachment: fixed;
 
  }
  #div1{

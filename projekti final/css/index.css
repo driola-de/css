@@ -3,9 +3,12 @@
   margin: 0px;
   padding: 0px;
 }
-body {
-   
-    background-color: rgb(61, 100, 163);
+body {  
+
+  background-image: url(../images/blue.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   }
 
 #divk{
@@ -42,3 +45,4 @@ body {
     text-decoration: underline;
     font-size: 20px;
   }
+ 
