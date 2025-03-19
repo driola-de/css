@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index Page</title>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
     <div id="divk">
         <div id="divImg">
-            <a href="index.html"><img src="images/qk.png"></a>
+            <a href="index.html"><img src="images/qk.png" alt="Logo"></a>
         </div>
         <div id="navv">
             <ul>
@@ -20,8 +20,30 @@
             </ul>
         </div>
     </div>
-    <div id="divk1">
-    <li><a href="register.html">Register</a></li>
-</div>
+
+    <div class="divr">
+        <form>
+            <h1>Login</h1>
+            <div class="pass">
+                <label for="username">
+                    <input type="text" id="username" placeholder="Username" required>
+                </label>
+            </div>
+            <div class="pass">
+                <label for="password">
+                    <input type="password" id="password" placeholder="Password" required>
+                </label>
+            </div>    
+            <div class="rf">
+                <label for="remember">
+                    <input type="checkbox" id="remember"> Remember Me
+                </label>
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <div class="register">
+                <p>Don't have an account? <a href="register.html">Register</a></p>
+            </div>  
+        </form>
+    </div>
 </body>
 </html>

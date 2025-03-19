@@ -1,48 +1,128 @@
 
-
 *{
   margin: 0px;
   padding: 0px;
 }
 body {
-   
+  justify-content: center;
+  align-items: center;
   background-image: url(../images/bluee.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   }
 
-#divk{
+
+#divk {
   display: flex;
-  background-color: rgb(255, 255, 255);
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 15px 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
-#divImg{
-  max-width: 100px;
-}
-#divImg>a>img{
+
+
+#divImg img {
   width: 100px;
 }
-#navv{
-  align-content: center;
+
+
+#navv ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
-  ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
-    
-  }
-  li {
-    float: left;
-  }
-  li a {
-    color:rgb(9, 58, 127);
-    padding: 15px;
-    display: block;
-    text-decoration: none;
-  }
-  li a:hover {
-    background-color: rgb(61, 59, 59);
-    text-decoration: underline;
-    font-size: 20px;
-  }
+
+#navv ul li {
+  display: inline;
+}
+
+#navv ul li a {
+  text-decoration: none;
+  color: rgb(9, 58, 127);
+  font-size: 18px;
+  padding: 10px 15px;
+  transition: all 0.3s ease;
+}
+
+#navv ul li a:hover {
+  background-color: rgb(61, 59, 59);
+  color: white;
+  border-radius: 5px;
+  text-decoration: underline;
+}
+
+
+.divr {
+  width: 420px;
+  background-color: rgba(42, 97, 193, 0.9);
+  color: white;
+  padding: 30px;
+  margin: 50px auto;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.pass {
+  margin: 15px 0;
+}
+
+.pass input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: 40px;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+  outline: none;
+}
+
+.pass input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
+.rf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.rf input {
+  margin-right: 5px;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  background-color: white;
+  color: rgb(42, 97, 193);
+  border: none;
+  border-radius: 40px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: rgb(9, 58, 127);
+  color: white;
+}
+
+.register {
+  margin-top: 15px;
+}
+
+.register a {
+  color: yellow;
+  text-decoration: none;
+}
+
+.register a:hover {
+  text-decoration: underline;
+}

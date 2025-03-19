@@ -3,46 +3,52 @@
   margin: 0px;
   padding: 0px;
 }
-body {  
-
+body {
+  justify-content: center;
+  align-items: center;
   background-image: url(../images/bluee.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   }
 
-#divk{
+
+#divk {
   display: flex;
-  background-color: rgb(255, 255, 255);
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 15px 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
-#divImg{
-  max-width: 100px;
-}
-#divImg>a>img{
+
+
+#divImg img {
   width: 100px;
 }
-#navv{
-  align-content: center;
+
+
+#navv ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
-  ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
-    
-  }
-  li {
-    float: left;
-  }
-  li a {
-    color:rgb(9, 58, 127);
-    padding: 15px;
-    display: block;
-    text-decoration: none;
-  }
-  li a:hover {
-    background-color: rgb(61, 59, 59);
-    text-decoration: underline;
-    font-size: 20px;
-  }
- 
+
+#navv ul li {
+  display: inline;
+}
+
+#navv ul li a {
+  text-decoration: none;
+  color: rgb(9, 58, 127);
+  font-size: 18px;
+  padding: 10px 15px;
+  transition: all 0.3s ease;
+}
+
+#navv ul li a:hover {
+  background-color: rgb(61, 59, 59);
+  color: white;
+  border-radius: 5px;
+  text-decoration: underline;
+}
