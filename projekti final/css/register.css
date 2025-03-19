@@ -1,50 +1,153 @@
 
+
 *{
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/bluee.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   }
-  body {
-     
-      background-color: rgb(61, 100, 163);
-    }
-  
-  #divk{
-    display: flex;
-    background-color: rgb(255, 255, 255);
-  }
-  #divImg{
-    max-width: 100px;
-  }
-  #divImg>a>img{
-    width: 100px;
-  }
-  #navv{
-    align-content: center;
-  }
-    ul {
-      list-style-type: none;
-      margin: 0px;
-      padding: 0px;
-      overflow: hidden;
-      
-    }
-    li {
-      float: left;
-    }
-    li a {
-      color:rgb(9, 58, 127);
-      padding: 15px;
-      display: block;
-      text-decoration: none;
-    }
-    li a:hover {
-      background-color: rgb(61, 59, 59);
-      text-decoration: underline;
-      font-size: 20px;
-    }
-   .form {
-    display: flex;
-    flex-direction: column;
-    max-width: 350px;
-    background: rgb(34, 96, 158);
-   }
+
+
+#divk {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 15px 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+#divImg img {
+  width: 100px;
+}
+
+
+#navv ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+#navv ul li {
+  display: inline;
+}
+
+#navv ul li a {
+  text-decoration: none;
+  color: rgb(9, 58, 127);
+  font-size: 18px;
+  padding: 10px 15px;
+  transition: all 0.3s ease;
+}
+
+#navv ul li a:hover {
+  background-color: rgb(61, 59, 59);
+  color: white;
+  border-radius: 5px;
+  text-decoration: underline;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.title {
+  font-size: 28px;
+  color: rgb(42, 97, 193);
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+
+.signin {
+  color: rgb(42, 97, 193);
+  font-size: 14px;
+  text-align: center;
+}
+
+.signin a {
+  color: rgb(31, 67, 129);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.signin a:hover {
+  color: rgb(9, 58, 127);
+  text-decoration: underline;
+}
+
+#diva {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+
+#diva label {
+  position: relative;
+  width: 100%;
+}
+
+label {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+label input {
+  width: 100%;
+  padding: 12px;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+label input+span {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  color: #24322d;
+  transition: 0.3s ease-in-out;
+  font-size: 14px;
+}
+
+label input:focus + span,
+label input:valid + span {
+  top: -5px;
+  left: 5px;
+  font-size: 12px;
+  color: rgb(42, 97, 193);
+}
+
+button.submit {
+  background-color: rgb(255, 255, 255);
+  color: rgb(42, 97, 193);
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+  font-weight: bold;
+}
+
+button.submit:hover {
+  background-color: rgb(255, 255, 255);
+}
+
