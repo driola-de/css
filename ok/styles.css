@@ -1,0 +1,92 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f6f6f6;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.apply-btn {
+    background-color: rgb(9, 58, 127);
+    padding: 8px 12px;
+    color: white !important;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: white;
+}
+
+.text-content {
+    max-width: 50%;
+}
+
+.text-content h3 {
+    color: rgb(9, 58, 127);
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.text-content h1 {
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+.image-content img {
+    max-width: 100%;
+    height: auto;
+    filter: sepia(1) hue-rotate(300deg) saturate(2);
+}
+
+/* Apply Section */
+.apply {
+    background-color: rgb(9, 58, 127);
+    text-align: center;
+    padding: 20px;
+}
+
+.apply-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}

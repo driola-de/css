@@ -52,3 +52,61 @@ body {
   border-radius: 5px;
   text-decoration: underline;
 }
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+
+}
+
+.text-content {
+  max-width: 50%;
+}
+
+.text-content h3 {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.text-content h1 {
+  font-size: 36px;
+  margin-top: 10px;
+  color:white ;
+}
+
+.image-content img {
+  max-width: 100%;
+  height: auto;
+
+}
+
+.apply-link {
+  background-color: rgb(9, 58, 127);
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.apply-link:hover {
+  background-color: rgb(130, 141, 217);
+}
+
+@media (max-width: 768px) {
+  #divk {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #navv ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+

@@ -53,3 +53,14 @@ body {
   border-radius: 5px;
   text-decoration: underline;
 }
+@media (max-width: 768px) {
+  #divk {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #navv ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
