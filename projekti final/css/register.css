@@ -163,4 +163,10 @@ button.submit:hover {
     gap: 10px;
   }
 }
-
+footer {
+  background: rgb(9, 58, 127);
+  color: white;
+  padding: 20px;
+  margin-top: 30px;
+  text-align: center;
+  }

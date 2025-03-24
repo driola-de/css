@@ -62,7 +62,9 @@ body {
 
 .text-content {
   max-width: 50%;
+ 
 }
+
 
 .text-content h3 {
   color: rgb(255, 255, 255);
@@ -99,7 +101,7 @@ body {
   background-color: rgb(130, 141, 217);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 512px) {
   #divk {
     flex-direction: column;
     text-align: center;
@@ -109,6 +111,10 @@ body {
     flex-direction: column;
     gap: 10px;
   }
+  .hero {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 footer {
@@ -116,4 +122,6 @@ footer {
   color: white;
   padding: 20px;
   margin-top: 30px;
+  text-align: center;
   }
+
