@@ -68,6 +68,7 @@ body {
   color: rgb(255, 255, 255);
   font-size: 16px;
   text-transform: uppercase;
+  transition: all;
 }
 
 .text-content h1 {
@@ -110,3 +111,9 @@ body {
   }
 }
 
+footer {
+  background: rgb(9, 58, 127);
+  color: white;
+  padding: 20px;
+  margin-top: 30px;
+  }
